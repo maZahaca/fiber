@@ -25,7 +25,7 @@
 
 namespace Pagon;
 
-class Fiber
+class Fiber extends EventEmitter
 {
     /**
      * @var array Injectors

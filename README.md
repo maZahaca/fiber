@@ -5,6 +5,8 @@ Fiber 是一个基于PHP5.3的 `Dependency Injection Container` [介绍](http://
 
 Fiber 在一些API上借鉴了 [Pimple](https://github.com/fabpot/Pimple), 但是使用的对象调用方式
 
+[Fiber](https://github.com/hfcorriez/fiber)是该库的基础，与其不同之处在于`Pagon\Fiber`默认继承了[EventEmitter](https://github.com/hfcorriez/php-eventemitter)，方便基于Fiber就能够有事件驱动。
+
 ## 依赖
 
 - PHP5.3+
